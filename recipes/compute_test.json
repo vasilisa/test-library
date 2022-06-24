@@ -22,7 +22,7 @@
     "main": {
       "items": [
         {
-          "ref": "test",
+          "ref": "input",
           "deps": []
         }
       ]
@@ -40,11 +40,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1656092775111
+    "lastModifiedOn": 1656092846985
   },
   "creationTag": {
     "versionNumber": 0,
