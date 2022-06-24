@@ -34,17 +34,3 @@ with out.get_writer() as writer:
 
 #          print(tmp.head())
         writer.write_dataframe(tmp)
-
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-# for some of the IDs we want to replace the content
-# for i in range(5):
-
-# #    tmp = dummy_data[dummy_data['Id'] == i] * i
-#     tmp = np.round(dummy_data[dummy_data['Id'] == i] * (i+1000))
-
-#     with dataiku.Dataset("test").get_writer() as writer:
-
-#         for (origin,count) in tmp.items():
-#             print(count)
-
-#             writer.write_row_array((origin,count))
