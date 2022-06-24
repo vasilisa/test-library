@@ -20,12 +20,7 @@
   "dkuProperties": [],
   "inputs": {
     "main": {
-      "items": [
-        {
-          "ref": "test",
-          "deps": []
-        }
-      ]
+      "items": []
     }
   },
   "outputs": {
@@ -40,11 +35,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1656092385322
+    "lastModifiedOn": 1656092436985
   },
   "creationTag": {
     "versionNumber": 0,
