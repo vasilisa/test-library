@@ -4,23 +4,32 @@ import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
+client = dataiku.api_client()
+project = client.get_project('INCREMENTDATA')
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Read recipe inputs and take the input schema to output dataset
 
 inp = dataiku.Dataset("input")
 out = dataiku.Dataset("output")
-out.write_schema_from_dataframe(inp.get_dataframe()) 
+out.write_schema_from_dataframe(inp.get_dataframe())
+
+do_clear = True # clear the content of the output dataset if needed 
+
+
+if do_clear: 
+    dataset = project.get_dataset('output')
+    dataset.clear()                                                                                         # clears all partitions
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-count = 0 
+count = 0
 with out.get_writer() as writer:
-    
-    for df in inp.iter_dataframes(chunksize=10): # access the input dataset in the chunks of 10 rows 
+
+    for df in inp.iter_dataframes(chunksize=10): # access the input dataset in the chunks of 10 rows
         count += 1
         print(count)
         # Make some changes for the columns in the chunk
-        tmp = df.copy() 
+        tmp = df.copy()
         tmp['Id'] = tmp['Id']+1000 # increment the Id by 1000
         tmp.iloc[0:10] = np.round(tmp.iloc[0:10] )
 
