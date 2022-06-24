@@ -8,8 +8,8 @@ from dataiku import pandasutils as pdu
 # Read recipe inputs and take the input schema to output dataset
 
 inp = dataiku.Dataset("input")
-out = dataiku.Dataset("output")
-out.write_schema_from_dataframe(inp.get_dataframe())
+# out = dataiku.Dataset("output")
+# out.write_schema_from_dataframe(inp.get_dataframe())
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 count = 0 
