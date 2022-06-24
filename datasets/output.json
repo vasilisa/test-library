@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1656090514157
+    "lastModifiedOn": 1656090644088
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,20 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"0","type":"double"},
+      {"name":"1","type":"double"},
+      {"name":"2","type":"double"},
+      {"name":"3","type":"double"},
+      {"name":"4","type":"double"},
+      {"name":"5","type":"double"},
+      {"name":"6","type":"double"},
+      {"name":"7","type":"double"},
+      {"name":"8","type":"double"},
+      {"name":"9","type":"double"},
+      {"name":"Id","type":"bigint"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
