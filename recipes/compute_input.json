@@ -35,11 +35,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1656092436985
+    "lastModifiedOn": 1656092503904
   },
   "creationTag": {
     "versionNumber": 0,
@@ -48,6 +48,7 @@
     },
     "lastModifiedOn": 1656092385322
   },
+  "shortDesc": "create a dataset with 100 rows and 100 columns \nFill it with random values",
   "tags": [],
   "customFields": {},
   "checklists": {
