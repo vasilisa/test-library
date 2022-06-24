@@ -10,7 +10,7 @@ from dataiku import pandasutils as pdu
 
 inp = dataiku.Dataset("input")
 out = dataiku.Dataset("output")
-out.write_schema_from_dataframe(inp.get_dataframe())
+out.write_schema_from_dataframe(inp.get_dataframe()) 
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 count = 0 
