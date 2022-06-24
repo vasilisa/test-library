@@ -7,7 +7,7 @@ from dataiku import pandasutils as pdu
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Read recipe inputs and take the input schema to output dataset
 
-inp = dataiku.Dataset("test")
+inp = dataiku.Dataset("input")
 out = dataiku.Dataset("output")
 out.write_schema_from_dataframe(inp.get_dataframe())
 
