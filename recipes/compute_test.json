@@ -40,11 +40,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1656092465054
+    "lastModifiedOn": 1656092553426
   },
   "creationTag": {
     "versionNumber": 0,
@@ -53,6 +53,7 @@
     },
     "lastModifiedOn": 1656087963641
   },
+  "shortDesc": "process the input dataset through chunks of 10 rows\nIncrement the ID by 1000 \nWrite the output dataset\nOuput dataset is set to Append",
   "tags": [],
   "customFields": {},
   "checklists": {
