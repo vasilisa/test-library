@@ -24,18 +24,18 @@
       "items": [
         {
           "ref": "test",
-          "appendMode": false
+          "appendMode": true
         }
       ]
     }
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1656087967777
+    "lastModifiedOn": 1656088256779
   },
   "creationTag": {
     "versionNumber": 0,
