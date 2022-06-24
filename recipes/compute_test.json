@@ -22,7 +22,7 @@
     "main": {
       "items": [
         {
-          "ref": "input",
+          "ref": "test",
           "deps": []
         }
       ]
@@ -40,11 +40,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1656092698706
+    "lastModifiedOn": 1656092763112
   },
   "creationTag": {
     "versionNumber": 0,
@@ -53,7 +53,6 @@
     },
     "lastModifiedOn": 1656087963641
   },
-  "shortDesc": "process the input dataset through chunks of 10 rows\nIncrement the ID by 1000 \nWrite the output dataset\nOuput dataset is set to Append",
   "tags": [],
   "customFields": {},
   "checklists": {

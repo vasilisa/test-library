@@ -4,12 +4,21 @@ import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
+# create an empty dataset with ID column
+
+# dummy_data = pd.DataFrame(np.random.rand(100, 10))
+# dummy_data['Id'] = list(range(10))*10
+
+# # # save it to the dataframe
+# inp = dataiku.Dataset("test")
+# inp.write_with_schema(dummy_data)
+
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Read recipe inputs and take the input schema to output dataset
 
 inp = dataiku.Dataset("input")
-# out = dataiku.Dataset("output")
-# out.write_schema_from_dataframe(inp.get_dataframe())
+out = dataiku.Dataset("output")
+out.write_schema_from_dataframe(inp.get_dataframe())
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 count = 0 
