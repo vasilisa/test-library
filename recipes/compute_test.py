@@ -14,7 +14,7 @@ inp = dataiku.Dataset("input")
 out = dataiku.Dataset("output")
 out.write_schema_from_dataframe(inp.get_dataframe())
 
-do_clear = True # clear the content of the output dataset if needed 
+do_clear = False # if True will clear the content of the output dataset if needed 
 
 
 if do_clear: 
