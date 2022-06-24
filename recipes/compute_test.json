@@ -32,10 +32,6 @@
     "main": {
       "items": [
         {
-          "ref": "test",
-          "appendMode": false
-        },
-        {
           "ref": "output",
           "appendMode": true
         }
@@ -44,11 +40,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1656090519325
+    "lastModifiedOn": 1656090548120
   },
   "creationTag": {
     "versionNumber": 0,
