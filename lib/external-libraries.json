@@ -4,6 +4,10 @@
       "remote": "git@github.com:vasilisa/incrementdata.git",
       "checkout": "refs/heads/main",
       "remotePath": "",
+      "lastHash": "a25cb6425cf68b1d0ff4d00619822839e7681ddd",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
